@@ -11,6 +11,17 @@ This repository contains a Python application for analyzing customer orders from
 
 > [!NOTE]
 > I am a windows user explaination are detailed for windows.
+
+> [!WARNING]
+> Turn on docker before starting the task.
+> 
+> Either use docker desktop directly OR
+> 
+> Open cmd as Administrator
+> ```
+> net stop com.docker.service
+> net start com.docker.service
+> ```
 ## Table of Contents
 
 1. [Project Structure](#project-structure)
