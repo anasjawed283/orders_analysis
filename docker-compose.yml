@@ -5,16 +5,14 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: orders_app
     volumes:
       - .:/app
-    command: ["python", "orders_analysis.py"]
+    command: python orders_analysis.py
 
-  tests:
+  test:
     build:
       context: .
       dockerfile: Dockerfile.test
-    container_name: orders_tests
     volumes:
       - .:/app
-    command: ["pytest", "test_orders_analysis.py"]
+    command: pytest test_orders_analysis.py
