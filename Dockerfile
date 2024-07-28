@@ -1,12 +1,17 @@
-# Dockerfile
+# Use the official Python image from the Docker Hub
 FROM python:3.12-slim
 
+# Set the working directory in the container
 WORKDIR /app
 
-COPY Pipfile Pipfile.lock /app/
+# Copy the requirements file into the container
+COPY requirements.txt .
 
-RUN pip install pipenv && pipenv install --system --deploy
+# Install any dependencies specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . /app
+# Copy the rest of the application code into the container
+COPY . .
 
+# Command to run the application
 CMD ["python", "orders_analysis.py"]
