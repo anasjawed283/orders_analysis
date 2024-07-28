@@ -68,6 +68,11 @@ cd orders_analysis_tanX
 
 ## Running the Application
 
+![image](https://github.com/user-attachments/assets/d3df98f6-e9b8-4ae8-ae47-f87bbc8df9f4)
+
+![image](https://github.com/user-attachments/assets/1985bf19-f2f9-4be4-8f43-b24f5bca5b91)
+
+
 ### With Docker
 
 1. **Build the Docker image**:
@@ -97,6 +102,11 @@ cd orders_analysis_tanX
     ```
 
 ## Running Tests
+
+![image](https://github.com/user-attachments/assets/34f0838e-e8ec-449c-af2d-6068f8be020b)
+
+![image](https://github.com/user-attachments/assets/632f021b-aed4-40c7-af05-45a8ff8e602c)
+
 
 ### With Docker
 
