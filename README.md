@@ -18,7 +18,7 @@ This project analyzes customer orders from an online store. It computes various 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/orders-analysis.git
+    git clone https://github.com/anasjawed283/orders_analysis_tanX.git
     cd orders-analysis
     ```
 
